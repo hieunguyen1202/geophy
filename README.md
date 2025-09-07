@@ -1,4 +1,4 @@
-# Dự Án React + TypeScript + Vite
+# Dự Án Nền tảng học tập trực tuyến tương tác hỗ trợ học sinh THPT học Hình học và Vật lý qua mô phỏng trực quan
 
 ## Mô tả
 Đây là dự án sử dụng React, TypeScript và Vite để xây dựng một ứng dụng web hiện đại.
