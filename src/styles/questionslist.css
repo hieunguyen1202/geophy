@@ -1,0 +1,96 @@
+.MuiTablePagination-toolbar .MuiIconButton-root.Mui-disabled {
+    color: rgba(0, 0, 0, 0.26);
+    /* Default disabled color for contrast */
+}
+
+.MuiCheckbox-colorPrimary.Mui-checked {
+    color: #f37021 !important;
+}
+
+.MuiTableSortLabel-active {
+    color: #f37021 !important;
+}
+
+.MuiTableSortLabel-active .MuiTableSortLabel-icon {
+    color: #f37021 !important;
+}
+
+.pagination-button-active {
+    background-color: #fd8338 !important;
+    color: white !important;
+    width: 38px;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: .25rem;
+}
+
+.pagination-button-outline {
+    border-color: #f37021 !important;
+    background-color: white !important;
+    color: black !important;
+    width: 38px;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: .25rem;
+}
+
+.pagination-button-outline:hover {
+    background-color: #fd8338 !important;
+    color: white !important;
+}
+
+.pagination-button-outline[disabled] {
+    color: rgba(243, 112, 33, 0.5) !important;
+    /* Lighter shade of theme color when disabled */
+    border-color: rgba(243, 112, 33, 0.5) !important;
+    background-color: transparent !important;
+}
+.MuiTablePagination-toolbar {
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    flex-wrap: nowrap !important;
+  }
+  .MuiTablePagination-actions { order: 1; }
+  .MuiTablePagination-selectLabel { order: 2; }
+  .MuiInputBase-root.MuiTablePagination-select { order: 3; }
+  .MuiTablePagination-displayedRows {
+    order: 4;
+    margin-left: auto !important;
+  }
+  
+.MuiTablePagination-spacer {
+    flex: 0 0 0 !important;
+    width: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+
+.MuiTablePagination-selectLabel,
+.MuiTablePagination-select {
+    margin: 0 !important;
+    align-items: center !important;
+    display: flex !important;
+}
+.MuiTablePagination-actions { order: 1; margin-right: 12px; }
+.MuiTablePagination-selectLabel { order: 2; margin: 0 6px 0 0; }
+.MuiInputBase-root.MuiTablePagination-select { order: 3; }
+.MuiTablePagination-displayedRows {
+  order: 4;
+  margin: 0 0;
+}
+
+.modal-top-center .modal-dialog {
+  position: absolute;
+  top: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0;
+}
+
+

@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Landing Page Navbar Styles */
+.landing-navbar {
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.landing-navbar .navbar-brand {
+  font-weight: bold;
+  color: var(--bs-primary);
+}
+
+.landing-navbar .nav-link {
+  color: var(--bs-primary);
+  transition: color 0.3s ease;
+}
+
+.landing-navbar .nav-link:hover {
+  color: var(--bs-primary-dark);
+}
+
+.landing-navbar .btn {
+  transition: all 0.3s ease;
+}
+
+/* Landing Page Footer Styles */
+.landing-footer {
+  background-color: white;
+  border-top: 1px solid #dee2e6;
+  padding: 3rem 0;
+}
+
+.landing-footer h3 {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.landing-footer .nav-link {
+  color: #6c757d;
+  padding: 0.25rem 0;
+  transition: color 0.3s ease;
+}
+
+.landing-footer .nav-link:hover {
+  color: var(--bs-primary);
+}
+
+.landing-footer .social-links a {
+  color: #6c757d;
+  transition: color 0.3s ease;
+}
+
+.landing-footer .social-links a:hover {
+  color: var(--bs-primary);
+}
+
+.landing-footer .copyright {
+  border-top: 1px solid #dee2e6;
+  padding-top: 1.5rem;
+  margin-top: 3rem;
+} 

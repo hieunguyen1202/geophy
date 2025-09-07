@@ -1,0 +1,68 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+# Thư mục phụ thuộc
+node_modules/
+
+# Tệp môi trường
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Tệp log
+*.log
+
+# Thư mục build
+dist/
+build/
+
+# Tệp cấu hình IDE
+.vscode/
+.idea/
+
+# Tệp hệ điều hành
+.DS_Store
+Thumbs.db
+
+# Tệp chứa thông tin bảo mật
+*.pem
+*.key
+*.cert
+*.p12
+*.pfx
+
+# Tệp cấu hình local
+*config.local.js
+*config.local.ts
+
+# Tệp tạm
+*.tmp
+*.temp
+.cache/
+src/api/apiConfig.ts
