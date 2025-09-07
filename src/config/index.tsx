@@ -5,9 +5,6 @@ import { FaChalkboardTeacher, FaFileAlt } from "react-icons/fa";
 
 
 const listSubMenuUser: BaseListMenu[] = [
-    { name: "Danh sách thiệp", icon: CiGrid41, path: "/user/wedding-card" },
-    { name: "Tổng quan", icon: CiWavePulse1, path: "/user/wedding-card/detail/1" },
-    { name: "Trang cá nhân", icon: CiUser, path: "/user/account" }
 ]
 
 const listMenuUser: BaseListMenu[] = [
